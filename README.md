@@ -33,3 +33,13 @@ library(janitor)
 library(dplyr)
 library(lubridate)
 ```
+
+```{r}
+# import and review data
+# Download dataset from https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+book_df <- read_csv("hotel_bookings.csv")
+# for view all data View(book_df)
+
+# view head of data frame
+head(book_df)
+```
